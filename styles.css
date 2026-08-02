@@ -216,6 +216,8 @@ select:focus, input:focus, textarea:focus{ border-color:var(--accent); }
 @media (max-width:860px){ .skills-grid{ grid-template-columns:1fr 1fr; } }
 @media (max-width:560px){ .skills-grid{ grid-template-columns:1fr; } }
 .skill-cat{ border:1px solid var(--border); background:var(--panel); border-radius:var(--radius); padding:20px; display:flex; flex-direction:column; }
+#projects .skill-cat{ min-height:300px; }
+@media (max-width:560px){ #projects .skill-cat{ min-height:0; } }
 .skill-cat h4{ font-size:13px; font-family:var(--mono); color:var(--accent); text-transform:uppercase; letter-spacing:.06em; margin-bottom:14px; }
 .skill-cat .chips{ margin-top:0; }
 
